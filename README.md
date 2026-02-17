@@ -13,7 +13,8 @@ WSL(Windows-Subsystem-Linux). You might need to reboot your computer for the
 installation, therefore, save and close all your other work and programs
 
 1. Download the following [powershell script](./windows.ps1)\
-   ![downloadWindowsScript](https://github.com/user-attachments/assets/1ed16c0d-ed8a-42d5-a5d7-7bab1ac277ab)
+   ![downloadWindowsScript](https://github.com/user-attachments/assets/7372e029-8bed-41e4-80b7-b7079b0856be)
+
 
 ---
 2. Open a new powershell terminal **with admin privileges** and run the following command and follow the instructions. Make sure that you open the powershell terminal at the path where you have downloaded the powershell script, otherwise the command will not work because it can not find the script. You can list currently accessible files in the powershell terminal with ```dir``` and you can use ```cd``` to navigate between directories
@@ -29,7 +30,8 @@ installation, therefore, save and close all your other work and programs
 
 ---
 4. After successful installation, you can open WSL/Ubuntu. You will need to choose a username and password, although no characters will be shown on the screen when typing the password but the system recognizes your input, no worries :) After these four steps your setup should look similar to this
-![initialUbuntuScreen](https://github.com/user-attachments/assets/a2b1511f-943b-468e-a726-b7a9dc46ea2c)
+![initialUbuntuScreen](https://github.com/user-attachments/assets/ecd4d4c2-1239-4717-87af-a476e425d734)
+
 <br>
 <br>
 <br>
@@ -68,7 +70,8 @@ installation, therefore, save and close all your other work and programs
    ```
 
 The screenshot below shows an example of how this looks
-![sourceScript](https://github.com/user-attachments/assets/2560320a-93ec-4086-994d-f3a0eed53c7b)
+![sourceScript](https://github.com/user-attachments/assets/9f804291-85b2-4a49-8da0-c6c95db390f3)
+
 
 The installation script _setup.sh_ can take a few minutes, please be patient and
 do not abort the process. If you encounter any issues, please close the terminal
@@ -363,7 +366,8 @@ filesystem. You can do this either by
    specify **source_file** the folder we want to copy from Windows filesystem
    and the _target_file_ where to copy the folder to in the Linux filesystem. As
    visible in this screenshot
-   ![copyFolderToUbuntu](https://github.com/user-attachments/assets/d483e495-e3af-4e85-929c-61dce1a39e10)
+   ![copyFolderToUbuntu](https://github.com/user-attachments/assets/363c2098-beca-48bc-bdff-582b83c96618)
+
    the repository folder resides under the C drive in /mnt/c/. If your file is
    not on your C drive, the folder path will be something like /mnt/d/. In the
    screenshot, the downloaded repository folder is in the Downloads folder of

@@ -90,7 +90,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn
+          Learn more
         </Button>
         <Button
           type="link"
